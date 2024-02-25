@@ -56,7 +56,9 @@ const Index = () => {
             Roll Stats
           </Button>
           <Stack direction="row">
-            <IconButton aria-label="Save character" icon={<FaSave />} isRound colorScheme="green" />
+            <Button leftIcon={<FaSave />} colorScheme="green">
+              Save Character
+            </Button>
             {/* Add more action buttons if necessary */}
           </Stack>
         </HStack>
